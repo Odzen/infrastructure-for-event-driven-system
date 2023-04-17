@@ -1,10 +1,10 @@
 terraform {
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "pablosspot"
+    organization = "odzen2000"
 
     workspaces {
-      prefix = "event-driven-system-infrastructure-"
+      prefix = "barber_management_backend-"
     }
   }
 }

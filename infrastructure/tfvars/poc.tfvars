@@ -1,5 +1,5 @@
-region                   = "ap-southeast-2"
-hosted_zone_name         = "pablosspot.ml"
+region                   = "us-east-2"
+hosted_zone_name         = "barbermanagment.live"
 endpoint_name            = "app"
 vpc_id                   = "vpc-392e765d"
 private_subnets          = ["subnet-ba2f3dcc", "subnet-4de6a814"]

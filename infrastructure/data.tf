@@ -2,8 +2,6 @@ data "aws_caller_identity" "current" {}
 
 data "aws_elastic_beanstalk_hosted_zone" "current" {}
 
-data "aws_elastic_beanstalk_hosted_zone" "current" {}
-
 data "archive_file" "docker_run" {
   type        = "zip"
   source_dir  = "${path.module}/ebsource"
